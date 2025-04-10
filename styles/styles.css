@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.common{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 110%;
+}
+
+body{
+    padding-top: 100px;
+    background-color: white;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #F4F4F4;
+    width:100%; 
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid lightgray;
+    top:0;
+    left:0;
+}
+
+.header-name{
+    font-size: 32px;
+    text-align: left;
+    line-height: 150%;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-bar{
+    margin-right: 3%;
+}
+
+.navigation{
+    font-size: 18px;
+    font-weight: bold;
+    color: #7D7D7D;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    line-height: 30%;
+    text-decoration: none !important;;
+}
+
+.navigation:hover{
+    color: #6C8E60;
+    transition: color 0.3s ease,
+}
+
+.title{
+    font-size: 150%;
+}
+
+img{
+    border: 2px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.whoiam{
+    font-size: 110%;
+    text-align: left;
+    margin-left:15%;
+    margin-right:15%;
+    line-height: 150%;
+}
+
+.whoiam p{
+    padding-bottom: 1%;
+}
