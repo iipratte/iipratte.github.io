@@ -1,0 +1,24 @@
+.resume{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.name{
+    font-size: 200%;
+}
+
+.section{
+    font-weight: bold;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-bottom: 1px solid black;
+}
+
+.sectionUpper{
+    font-size: 100%;
+}
+
+.sectionLower{
+    font-size: 60%;
+    text-transform: uppercase;
+}
