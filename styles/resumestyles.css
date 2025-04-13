@@ -1,5 +1,8 @@
 .resume{
     font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .name{
@@ -9,8 +12,7 @@
 .section{
     font-weight: bold;
     text-align: left;
-    margin-left: 15%;
-    margin-right: 15%;
+
     border-bottom: 1px solid black;
 }
 
@@ -19,6 +21,40 @@
 }
 
 .sectionLower{
-    font-size: 60%;
+    font-size: 70%;
     text-transform: uppercase;
+}
+
+.title{
+    font-weight: bold;
+    float: left;
+    font-size: 100%;
+}
+
+.location{
+    float: right;
+}
+
+.role{
+    float: left;
+    font-style: italic;
+}
+
+.date{
+    float: right;
+}
+
+.bullets{
+    float:left;
+    text-align: left;
+}
+
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.description{
+    font-weight: normal;
+    font-style: italic;
 }
