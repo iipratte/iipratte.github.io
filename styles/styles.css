@@ -27,6 +27,7 @@ body{
     border-bottom: 1px solid lightgray;
     top:0;
     left:0;
+    z-index: 10;
 }
 
 .header-name{
@@ -50,12 +51,16 @@ body{
     margin-left: 10px;
     padding: 5px;
     line-height: 30%;
-    text-decoration: none !important;;
+    text-decoration: none;
 }
 
 .navigation:hover{
     color: #6C8E60;
-    transition: color 0.3s ease,
+    transition: color 0.3s ease;
+}
+
+#top{
+    scroll-margin-top: 100px;
 }
 
 .pagetitle{
@@ -65,10 +70,14 @@ body{
 
 img{
     border: 2px solid black;
-    border-radius: 50%;
     object-fit: cover;
+}
+
+.headshot{
     width: 150px;
     height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 
 .whoiam{
@@ -81,4 +90,11 @@ img{
 
 .whoiam p{
     padding-bottom: 1%;
+}
+
+.tableau{
+    margin-left:15%;
+    margin-right:15%;
+    z-index: 1;
+    height: 1000px;
 }
