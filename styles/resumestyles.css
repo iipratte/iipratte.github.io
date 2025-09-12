@@ -59,3 +59,12 @@ ul{
     font-weight: normal;
     font-style: italic;
 }
+
+.pagetitle{
+    text-align: center;
+}
+
+a{
+    color:#0A66C2;
+    text-decoration: none;
+}
